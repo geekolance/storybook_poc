@@ -9,6 +9,7 @@
   font-size: 18px;
   border-radius: 100px;
   cursor: pointer;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.3);
 }
 
 .button-icon {
@@ -30,8 +31,22 @@
   opacity: 65%;
 }
 
-.secondary {
-  background-color: #e7e7e7;
+.secondary1 {
+  border: #CCCCCC;
+  background-image: linear-gradient(#FFFFFF, #CECECE);
+  color: black;
+}
+
+.secondary2 {
+  border: #CCCCCC;
+  background-image: linear-gradient(#FFFFFF, #EAEAEA);
+  color: black;
+  opacity: 75%;
+}
+
+.secondary3 {
+  border: #CCCCCC;
+  background-image: linear-gradient(#FFFFFF, #CECECE);
   color: black;
 }
 
