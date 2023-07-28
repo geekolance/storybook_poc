@@ -1,0 +1,52 @@
+.button {
+  border: none;
+  color: #F9F9F9;
+  padding: 15px 20px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.button-icon {
+  width: 1em;
+  height: 0.9em;
+}
+
+.primary1 {
+  background-image: linear-gradient(#04AFEB, #578B9D)
+}
+
+.primary2 {
+  background-image: linear-gradient(#04AFEB, #578B9D);
+  opacity: 85%;
+}
+
+.primary3 {
+  background-image: linear-gradient(#04AFEB, #578B9D);
+  opacity: 65%;
+}
+
+.secondary {
+  background-color: #e7e7e7;
+  color: black;
+}
+
+/* Gray */
+.success {
+  background-color: #4CAF50;
+}
+
+/* Green */
+.danger {
+  background-color: #f44336;
+}
+
+/* Red */
+
+.primary-with-icon {
+  background-image: linear-gradient(#04AFEB, #578B9D)
+}
