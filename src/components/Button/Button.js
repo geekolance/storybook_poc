@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react"
 import './Button.css'
 
-function Button (props) {
+export const Button = (props) => {
   const { variant = 'primary',icon ,children, ...rest } = props
   return (
     <button className={`button ${variant}`} {...rest}>
@@ -10,5 +10,3 @@ function Button (props) {
     </button>
   )
 }
-
-export default Button

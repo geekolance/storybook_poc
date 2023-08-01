@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Secondary1 } from './components/Button/Button.stories';
 
