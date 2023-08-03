@@ -5,8 +5,6 @@ import { terser } from 'rollup-plugin-terser';
 import postcss from 'rollup-plugin-postcss';
 import image from '@rollup/plugin-image';
 
-import React from 'react';
-
 export default [
   {
     input: './src/index.js',
