@@ -8,6 +8,6 @@ export default {
   }
 }
 
-export const Filled = () => <SideMenuButton label = 'label' variant='filled' />
-export const Normal = () => <SideMenuButton label = 'label' variant='normal' />
-export const Disabled = () => <SideMenuButton label = 'label' variant='disabled' />
+export const Filled = () => <SideMenuButton label = 'Menu Item' variant='filled' />
+export const Normal = () => <SideMenuButton label = 'Menu Item' variant='normal' />
+export const Disabled = () => <SideMenuButton label = 'Menu Item' variant='disabled' />

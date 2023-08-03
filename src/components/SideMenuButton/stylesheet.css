@@ -31,6 +31,7 @@
 }
 
 .disabled {
+  border: #CCCCCC;
   background-image: linear-gradient(#FFFFFF, #EAEAEA); 
   color: #252525;
   opacity: 75%;
