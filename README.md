@@ -14,3 +14,15 @@
 9. Add the GitHub token and npm token in the .env file
 10. publish the package
   > npm publish
+
+
+<h1>How to use the package that is published on npm</h1>
+
+1. install the package.
+  > npm install ak_storybook_poc
+
+2. import the package in the js file
+  > import { Button } from 'ak_storybook_poc'
+
+3. You can customise the component with the custom css
+
