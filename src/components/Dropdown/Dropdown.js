@@ -6,17 +6,28 @@ import { defaultitems } from "./config";
 export const Dropdown = (props) => {
   const {
     onChange,
-    placeholder,
-    items = defaultitems
+    placeholder = "Placeholder",
+    items = defaultitems,
+    multiSelect = false
   } = props
 
+  let selectedItems = []
   const [isActive, setIsActive] = useState(false);
-  const [selected, setIsSelected] = useState(placeholder || "Placeholder");
+  const [selected, setIsSelected] = useState([]);
+  const [display, setDisplay] = useState([])
 
   const onClick = (item) => {
-    setIsSelected(item.value)
+    if (multiSelect) {
+      selectedItems.push(item)
+      setIsSelected(selected => [...selected, item.value])
+      setDisplay(display => [...display, item.label])
+    } else {
+      selectedItems = item
+      setIsSelected(item.value)
+      setDisplay(item.label)
+    }
     setIsActive(!isActive)
-    if (onChange) onChange(item)
+    if (onChange) onChange(selectedItems)
   }
 
   return (
@@ -28,7 +39,9 @@ export const Dropdown = (props) => {
           }}
           className={`dropdown-btn ${isActive ? 'active' : 'inactive'}`}
         >
-          {selected}
+          {console.log(selected, selected.length)}
+          {multiSelect ? selected.join(", ") : selected}
+          {selected.length === 0 && placeholder}
           <span>
             <img src={Icon} className={`icon ${isActive ? "" : "unselected"}`} />
           </span>
