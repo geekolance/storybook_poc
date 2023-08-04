@@ -17,6 +17,9 @@
 10. publish the package
   > npm publish
 
+<h1>How to initialize</h1>
+<h1>Why Rollup js</h1>
+
 <h1>How to use the package that is published on npm</h1>
 
 1. install the package.
