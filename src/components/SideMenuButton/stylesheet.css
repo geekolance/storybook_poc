@@ -1,0 +1,38 @@
+.sidemenu-button {
+  display: flex;
+  border-radius: 50px;
+  min-width: 333px;
+  height: 42px;
+  justify-content: space-between;
+  padding: 12px 18px 12px 18px;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.sidemenu-label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #252525;
+}
+
+.sidemenu-icon {
+  height: 18px;
+  width: 18px;
+}
+
+.filled {
+  border: #CCCCCC;
+  background-image: linear-gradient(#FFFFFF, #CECECE);
+}
+
+.normal {
+  border: #CCCCCC;
+  background-image: linear-gradient(#FFFFFF, #EAEAEA); 
+}
+
+.disabled {
+  border: #CCCCCC;
+  background-image: linear-gradient(#FFFFFF, #EAEAEA); 
+  color: #252525;
+  opacity: 75%;
+}
