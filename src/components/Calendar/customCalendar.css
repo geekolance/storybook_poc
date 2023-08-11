@@ -1,0 +1,23 @@
+.react-calendar { 
+  width: 400px;
+  max-width: 100%;
+  background: none !important;
+  color: #252525;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+ }
+
+ .react-calendar__navigation {
+  margin-bottom: 0 !important;
+ }
+
+ .react-calendar-active {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+ }
+
+ abbr[title] {
+  text-decoration: none !important;
+ }

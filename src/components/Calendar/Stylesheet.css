@@ -38,7 +38,7 @@
   border-radius: 10px 10px 0px 0px;
 }
 
-.dropdown-content {
+.calendar-content {
   max-height: 150px;
   overflow: scroll;
   border-radius: 0px 0px 10px 10px;
@@ -50,11 +50,11 @@
   scrollbar-width: none;
 }
 
-.dropdown-content::-webkit-scrollbar { 
+.calendar-content::-webkit-scrollbar { 
   display: none;  /* Safari and Chrome */
 }
 
-.dropdown-content .item {
+.calendar-content .item {
   padding: 10px;
   cursor: pointer;
 }
@@ -63,7 +63,7 @@
   border: 1px solid #CCCCCC;
 }
 
-.dropdown-content .item:hover {
+.calendar-content .item:hover {
   background: #F9F9F9;
 }
 

@@ -25,8 +25,8 @@ export const Dropdown = (props) => {
       selectedItems = item
       setIsSelected(item.value)
       setDisplay(item.label)
+      setIsActive(!isActive)
     }
-    setIsActive(!isActive)
     if (onChange) onChange(selectedItems)
   }
 
@@ -39,7 +39,6 @@ export const Dropdown = (props) => {
           }}
           className={`dropdown-btn ${isActive ? 'active' : 'inactive'}`}
         >
-          {console.log(selected, selected.length)}
           {multiSelect ? selected.join(", ") : selected}
           {selected.length === 0 && placeholder}
           <span>
