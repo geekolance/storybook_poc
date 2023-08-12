@@ -5,8 +5,12 @@
   color: #252525;
   border-radius: 8px;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.125em;
+  font-size: 16px;
+  font-family: 'Mulish';
+ }
+
+ .react-calendar__month-view__days {
+  line-height: 20.08px;
  }
 
  .react-calendar__navigation {
@@ -19,5 +23,21 @@
  }
 
  abbr[title] {
+  font-family: 'Mulish' !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
   text-decoration: none !important;
+ }
+
+ abbr[aria-label] {
+  font-family: 'mulish';
+  font-size: 16px;
+ }
+ .react-calendar__navigation__label__labelText {
+  font: 'Space Grotesk';
+  font-weight: 540;
+  font-size: 16px;
+  line-height: 20.42px;
+  color: #252525;
  }
