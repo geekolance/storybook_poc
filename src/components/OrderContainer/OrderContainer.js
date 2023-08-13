@@ -25,7 +25,7 @@ export const OrderContainer = (props) => {
         {/* Pickup details */}
         <div className='order-container-line'>
           <div className='order-container-subheading'>
-            Pick Up At
+            Pick Up At:
           </div>
           <div className='order-container-text'>
             {pickupAddress}
@@ -35,7 +35,7 @@ export const OrderContainer = (props) => {
         {/* Progress details */}
         <div className='order-container-line'>
           <div className='order-container-subheading'>
-            Progress
+            Progress:
           </div>
           <div className='order-container-text'>
             {Progress}
@@ -46,7 +46,7 @@ export const OrderContainer = (props) => {
         {variant !== 'scheduled' && (
           <div className='order-container-line'>
             <div className='order-container-subheading'>
-              Delivery
+              Delivery:
             </div>
             <div className='order-container-text'>
               {delivery}
