@@ -28,7 +28,7 @@ export const OrderContainer = (props) => {
             Pick Up At
           </div>
           <div className='order-container-text'>
-            {header}
+            {pickupAddress}
           </div>
         </div>
 
