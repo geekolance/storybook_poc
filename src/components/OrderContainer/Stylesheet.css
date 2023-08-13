@@ -11,7 +11,7 @@
 
 .order-edit-button {
   width: max-content !important;
-  padding: 8px 25px !important;
+  padding: 8px 20px !important;
 }
 
 .progress {
@@ -36,7 +36,7 @@
 }
 
 .order-container-subheading {
-  font-family: 'mulish';
+  font-family: 'Mulish', sans-serif;
   font-weight: 500;
   line-height: 17px;
   font-size: 14px;
@@ -51,7 +51,8 @@
 }
 
 .order-container-header {
-  font-family: 'Space Grotesk';
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 25.52px;
