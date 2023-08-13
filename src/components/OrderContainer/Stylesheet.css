@@ -74,3 +74,12 @@
   width: max-content !important;
   padding: 8px 60px !important;
 }
+
+.order-info-section {
+  color: var(--main-black, #252525);
+  font-family: 'Mulish';
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
