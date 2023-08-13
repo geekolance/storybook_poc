@@ -1,4 +1,5 @@
 .button {
+  width: auto;
   border: none;
   color: #F9F9F9;
   padding: 15px 20px;
@@ -83,4 +84,23 @@
 /* Red */
 .primary-with-icon {
   background-image: linear-gradient(#04AFEB, #578B9D)
+}
+
+.smallSecondary1 {
+  width: auto;
+  border: #CCCCCC;
+  background-image: linear-gradient(#FFFFFF, #CECECE);
+  color: #252525;
+  padding: 8px 18px 8px 18px;
+  font-size: 13px;
+}
+
+.smallSecondary2 {
+  width: auto;
+  border: #CCCCCC;
+  background-image: linear-gradient(#FFFFFF, #CECECE);
+  color: #252525;
+  padding: 8px 18px 8px 18px;
+  font-size: 13px;
+  opacity: 95%;
 }

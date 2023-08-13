@@ -78,3 +78,15 @@ ButtonWithIconBlack3.args = {
   variant: 'Black3',
   icon: figma,
 }
+
+export const SmallSecondaryButton1 = Template.bind({})
+SmallSecondaryButton1.args = {
+  variant: 'smallSecondary1',
+  icon: figmaBlack
+}
+
+export const SmallSecondaryButton2 = Template.bind({})
+SmallSecondaryButton2.args = {
+  variant: 'smallSecondary2',
+  icon: figmaBlack
+}
