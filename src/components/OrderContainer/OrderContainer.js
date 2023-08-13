@@ -70,16 +70,16 @@ export const OrderContainer = (props) => {
     {variant === 'scheduled' && (
       <>
         <hr></hr>
+        <div className='order-info-section'>
+          {deliveryInfo}
+        </div>
+        <Button
+          variant='primary1 schedule-button'
+          icon={schedule_delivery_white}
+        >
+          Schedule For Delivery
+        </Button>
       </>
     )}
-    <div className='order-info-section'>
-      {deliveryInfo}
-    </div>
-    <Button
-      variant='primary1 schedule-button'
-      icon={schedule_delivery_white}
-    >
-      Schedule For Delivery
-    </Button>
   </div>
 }
