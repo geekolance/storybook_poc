@@ -1,3 +1,7 @@
 export * from './components/Button'
 export * from './components/Hompagenav'
 export * from './components/SideMenuButton'
+export * from './components/Hompagenav'
+export * from './components/Dropdown'
+export * from './components/InfoPill'
+export * from './components/OrderContainer'

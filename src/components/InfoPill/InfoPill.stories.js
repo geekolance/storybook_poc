@@ -7,11 +7,12 @@ export default {
   title: 'Components/Infopill',
   component: InfoPill,
   args: {
-    children: 'InfoPill'
+    variant: {
+      options: ['primary', 'color', 'default'],
+      control: { type: 'radio' },
+    },
   }
 }
-
-// const Template = args => <Nav {...args} />
 
 export const Primary = () => <InfoPill text='Info' variant='primary' />
 export const Color = () => <InfoPill text='Info' variant='color' />
