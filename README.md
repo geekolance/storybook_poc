@@ -47,7 +47,7 @@
 
   > import {componentName} from 'storybook_package_name/dist'
 
-<h2>Props required for Button</h2>
+<h2>Button</h2>
 
 - variant (String)
   - primary1 (default)
@@ -62,6 +62,7 @@
   - smallSecondary1
   - smallSecondary2
   - smallSecondary3
+- icon (Image object)
 
 <h2>Calendar</h2>
 
