@@ -10,4 +10,8 @@ export default {
   }
 }
 
-export const Primary = () => <CustomCalendar />
+const onDateChange = (value) => {
+  console.log(value)
+}
+
+export const Primary = () => <CustomCalendar onChange = {onDateChange}/>

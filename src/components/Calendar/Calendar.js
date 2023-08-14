@@ -8,11 +8,16 @@ import './customCalendar.css'
 
 const CustomCalendar = (props) => {
   const {
-
+    onChange
   } = props
 
   const [isActive, setIsActive] = useState(false);
   const [date, setDate] = useState(new Date());
+
+  const onDateChange = (e) => {
+    onChange(e.target.value)
+    setDate(e.target.value)
+  }
 
   return <>
     <div className="dropdown">
@@ -34,7 +39,7 @@ const CustomCalendar = (props) => {
       >
         <Calendar
           className={isActive ? 'react-calendar-active' : 'react-calendar-inactive'}
-          onChange={setDate}
+          onChange={() => onDateChange()}
           value={date}
         />
       </div>
