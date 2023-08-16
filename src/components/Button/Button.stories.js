@@ -13,7 +13,19 @@ export default {
 
 const Template = args => <Button {...args} />
 
-export const Primary1 = () => <Button variant='primary1'>Button</Button>
+export const Primary1 = (args) => (
+  <Button
+    variant='primary1'
+    {...args}
+  >
+    Button
+  </Button>
+)
+
+Primary1.args = {
+  variant: 'primary1'
+}
+
 export const Primary2 = () => <Button variant='primary2'>Button</Button>
 export const Primary3 = () => <Button variant='primary3'>Button</Button>
 
