@@ -29,7 +29,7 @@ export const Primary1 = (args) => (
 )
 
 Primary1.args = {
-  variant: 'primary1'
+  variant: 'primary2'
 }
 
 export const Primary2 = () => <Button variant='primary2'>Button</Button>
