@@ -1,0 +1,29 @@
+.info-container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px 15px;
+  border-radius: 50px;
+  gap: 5px;
+  display: flex;
+  background: #F9F9F9;
+  border: 1px solid #CCCCCC;
+
+  color: #252525;
+
+  color: var(--main-black, #252525);
+  font-family: 'Mulish', sans-serif;;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.info-icon {
+  width: 18px;
+  height: 18px;
+}
+
+
+/*# sourceMappingURL=components-InformationContainer-InformationContainer-stories.c95df392.chunk.css.map*/

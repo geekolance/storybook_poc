@@ -19,8 +19,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "build-storybook",
-    "build-lib": "rollup -c"
+    "build-storybook": "sb build",
+    "build-lib": "rollup -c",
+    "chromatic": "npx chromatic --project-token=chpt_b1e5ffe8df5a0a0"
   },
   "eslintConfig": {
     "extends": [
@@ -59,6 +60,7 @@
     "@storybook/testing-library": "^0.2.0",
     "babel-loader": "^8.2.2",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.22.0",
     "eslint-plugin-storybook": "^0.6.13",
     "prop-types": "^15.8.1",
     "react": "^17.0.1",
@@ -74,5 +76,7 @@
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "ak_storybook_poc@0.1.5"
 }

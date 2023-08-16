@@ -1,7 +1,13 @@
 import React from 'react'
+import { Meta } from '@storybook/blocks'
 import { Button } from './Button'
 import figma from '../../assets/figma.png'
 import figmaBlack from '../../assets/figma-black.png'
+
+// const Meta: Meta<typeof Button> = {
+//   title: 'Form/Button',
+//   component: Button,
+// }
 
 export default {
   title: 'Form/Button',

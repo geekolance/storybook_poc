@@ -1,0 +1,46 @@
+.info-pill {
+  display: inline-flex;
+  padding: 4px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 50px;
+  border: 1px solid #CCC;
+  border: 1px solid var(--border-gray, #CCC);
+  /* Button shadow */
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.20);
+
+  color: #252525;
+
+  color: var(--main-black, #252525);
+  font-family: 'Mulish';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.info-pill-primary {
+  background: #F9F9F9;
+  background: var(--main-white, #F9F9F9);
+}
+
+.info-pill-color {
+  background: linear-gradient(90deg, #D2A7FF 0%, #FEA237 100%);
+  background: var(--express, linear-gradient(90deg, #D2A7FF 0%, #FEA237 100%));
+  color: #F9F9F9;
+  color: var(--main-white, #F9F9F9);
+}
+
+.info-pill-default {
+  border: 1px solid #CCC;
+  border: 1px solid var(--border-gray, #CCC);
+  background: #252525;
+  background: var(--main-black, #252525);
+  color: #F9F9F9;
+  color: var(--main-white, #F9F9F9);
+}
+
+
+/*# sourceMappingURL=components-InfoPill-InfoPill-stories.ac496a7b.chunk.css.map*/

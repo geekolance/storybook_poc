@@ -1,0 +1,53 @@
+.smrt-checkbox-container {
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-items: center;
+  gap: 5px;
+}
+
+.smrt-checkbox-label {
+  position: relative;
+  padding: 10px 0;
+  color: #252525;
+  color: var(--main-black, #252525);
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/* hide the default checkbox */
+.smrt-checkbox {
+  display: none;
+}
+
+.smrt-checkbox-label {
+  cursor: pointer;
+}
+
+/* add pseudo-element as fake checkbox before the label */
+.smrt-checkbox+.smrt-checkbox-label:before {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  border-radius: 2px;
+  background: none;
+  position: relative;
+  display: inline-block;
+  margin-right: 1ex;
+  content: "";
+}
+
+/* style the pseudo element for checked box */
+.smrt-checkbox:checked+.smrt-checkbox-label:before {
+  background: #000000;
+  background-clip: content-box; /* <---- */
+  box-shadow: inset 0 0 0 1px #fff; /* <-- 10px spread radius */
+}
+
+/*# sourceMappingURL=components-Checkbox-Checkbox-stories.dee356d3.chunk.css.map*/
