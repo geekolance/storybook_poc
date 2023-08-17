@@ -20,6 +20,7 @@
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "sb build",
+    "build-static-webapp":"expo build:web",
     "build-lib": "rollup -c",
     "chromatic": "npx chromatic --project-token=chpt_b1e5ffe8df5a0a0"
   },
